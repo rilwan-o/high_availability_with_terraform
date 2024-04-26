@@ -11,7 +11,7 @@ resource "aws_autoscaling_group" "autoscaling" {
 
   tag {
     key                 = "Name"
-    value               = "example-asg"
+    value               = "test-key-pair"
     propagate_at_launch = true
   }
 }
